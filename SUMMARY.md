@@ -7,4 +7,4 @@
 * [空間場分布計算](kong-jian-chang-fen-bu-ji-suan.md)
 * [極化估計](ji-hua-gu-ji.md)
 * [波束優化](bo-shu-you-hua.md)
-* [ffd類別](ffd-lei-bie.md)
+* [程式類別](cheng-shi-lei-bie.md)
