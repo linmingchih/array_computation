@@ -158,10 +158,13 @@ class beam():
         for i in self.excitations:
             if i not in sources:
                 self.excitations[i] = (0, 0)
+
             else:
                 mag, phase = sources[i]
                 self.excitations[i] = (mag, phase)
-    
+        
+        self.calculate()
+                
     def push_excitation(self):
         pass
 
@@ -170,7 +173,6 @@ class beam():
               +np.power(np.absolute(self.field.ephi),2))/377/2
         
         total_power = sum([mag for mag, phase in self.excitations.values()])
-        print(total_power)
         realized_gain = pd/(total_power/4/np.pi)
         print(np.max(realized_gain))
         
@@ -183,6 +185,9 @@ class beam():
         plt.colorbar()
 
 b1 = beam('d:/demo/field.json')
+sources = {'4x2_array1_Module_0_Bump_h1:1': (1, 60),
+           '4x2_array1_Module_0_Bump_h2:1': (1, 0)}
+b1.edit_sources(sources)
 b1.plot_realized_gain()
 ```
 {% endcode %}
