@@ -9,8 +9,7 @@ $$
 a1, a2, a3是激發，包含強度及相位，可以寫成
 
 $$
-a_n = mag_n\times e^{j \times w \times phase_n}
+a_n = mag_n \times e^{jw(phase)}
 $$
 
-
-
+在球座標當中，$$E$$拆分成$$E_{\theta}$$與$$E_{\phi}$$，兩者需分開計算。
