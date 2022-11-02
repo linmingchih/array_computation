@@ -1,6 +1,8 @@
 # 遠場資料表示方式
 
-電磁輻射主要由電場(E)與磁場(H)構成。在球座標當中，可以拆解成$${\theta}跟{\phi}$$兩個方向的分輛。HFSS遠場的定義：
+### 遠場資料
+
+遠場電磁輻射主要由電場(E)與磁場(H)構成。在球座標當中，可以拆解成$${\theta}跟{\phi}$$兩個方向的分輛。HFSS遠場的定義：
 
 $$
 E_{\theta}({\theta},{\phi})\\ E{\phi}({\theta},{\phi})
@@ -12,7 +14,15 @@ $$
 E=Z_0H, \  Z_0=377({\Omega})
 $$
 
-因此只要E確定，H便可以確定。遠場的E跟H場做向量外積可以得到P(波因庭向量)：
+因此只要E確定，H便可以確定。HFSS的遠場輸出檔案.ffd內容如下：
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
+
+### 天線增益
+
+遠場的E跟H場做向量外積可以得到P(波因庭向量)：
 
 $$
 P=E\times H \ (W/m^2)
@@ -20,4 +30,4 @@ $$
 
 P的方向是遠離原點，畫成3D圖如下：
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
