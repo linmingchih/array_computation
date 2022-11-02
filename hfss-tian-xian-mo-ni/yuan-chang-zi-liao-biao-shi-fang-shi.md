@@ -16,7 +16,7 @@ $$
 
 因此只要E確定，H便可以確定。HFSS的遠場輸出檔案.ffd內容如下：
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### 天線增益
 
@@ -34,4 +34,4 @@ $$
 
 Realized Gain可以在HFSS當中畫成3D圖，如下：
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
