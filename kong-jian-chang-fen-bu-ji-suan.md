@@ -16,9 +16,7 @@ $$
 
 因此只要E確定，H便可以確定。HFSS的遠場輸出檔案.ffd內容如下：
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### 天線增益
 
@@ -31,7 +29,9 @@ $$
 P的方向是遠離原點。增益有多種表示法，我們這裡用Realized Gain來表示陣列天線的增益。Realized Gain是1W輸入，遠場輻射當中最大的波因庭向量除以1W等方向性輻射功率密度。
 
 $$
-1W/4\pi =  0.08 \ (W/m^2)
+等方向性輻射功率密度: 1W/4\pi =  0.08 \ (W/m^2)
 $$
 
-畫成3D圖如下：
+Realized Gain可以在HFSS當中畫成3D圖，如下：
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
