@@ -13,7 +13,7 @@
   * [HFSS連結初始化](cheng-shi-ma-gai-yao/hfss-lian-jie-chu-shi-hua.md)
   * [資料擷取](cheng-shi-ma-gai-yao/zi-liao-xie-qu.md)
   * [Numpy基本](cheng-shi-ma-gai-yao/numpy-ji-ben.md)
-  * [場物件與方法](cheng-shi-ma-gai-yao/chang-wu-jian-yu-fang-fa.md)
+  * [遠場物件與方法](cheng-shi-ma-gai-yao/yuan-chang-wu-jian-yu-fang-fa.md)
   * [波束物件及設定](cheng-shi-ma-gai-yao/bo-shu-wu-jian-ji-she-ding.md)
   * [場物件及運算](cheng-shi-ma-gai-yao/chang-wu-jian-ji-yun-suan.md)
   * [天線增益優化](cheng-shi-ma-gai-yao/tian-xian-zeng-yi-you-hua.md)
