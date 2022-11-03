@@ -28,10 +28,20 @@ $$
 P=E\times H \ (W/m^2)
 $$
 
-P的方向是遠離原點。增益有多種表示法，我們這裡用Realized Gain來表示陣列天線的增益。Realized Gain是1W輸入，遠場輻射當中最大的波因庭向量除以1W等方向性輻射功率密度。
+P的方向是遠離原點。
 
 $$
-等方向性輻射功率密度: 1W/4\pi =  0.08 \ (W/m^2)
+P=E^2/377/2
+$$
+
+增益有多種表示法，我們這裡用Realized Gain來表示陣列天線的增益。Realized Gain是1W輸入，遠場輻射的波因庭向量除以1W等方向性輻射功率密度Piso。
+
+$$
+P_{iso}: 1W/4\pi =  0.08 \ (W/m^2)
+$$
+
+$$
+G_{realized}=P/P_{iso}
 $$
 
 Realized Gain可以在HFSS當中畫成3D圖，如下：
