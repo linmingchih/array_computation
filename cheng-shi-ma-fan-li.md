@@ -1,4 +1,8 @@
-# 波束優化
+---
+description: 將程式碼複製到Spyder當中
+---
+
+# 程式碼範例
 
 {% code lineNumbers="true" %}
 ```python
