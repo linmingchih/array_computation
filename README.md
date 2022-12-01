@@ -15,4 +15,4 @@
 
 ### 資格要求
 
-熟悉Python並曾自行開發過Python Script，了解物件導向觀念為佳
+需熟悉Python並有開發過Python Script經驗，了解物件導向觀念為佳
